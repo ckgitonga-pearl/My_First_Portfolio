@@ -6,12 +6,39 @@
     <title>Caroline | Travel Consultant & Front-End Developer</title>
        
     <meta name="description" content="Portfolio of Caroline Gitonga - Frontend Developer" />
- <nav>
+ <style>
+    table {
+        width: 30%;
+        border-collapse: collapse;
+    }
+
+    table, th, td {
+        border: 1px solid #ccc;
+    }
+
+    th, td {
+        padding: 8px 12px;
+        text-align: left;
+    }
+
+    th {
+        font-weight: bold;
+    }
+    /* Footer */
+        footer {
+            background: var(--dark, #334155);
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+</style>
 </head>
 
 <header style="background-color: #222; color: white; padding: 15px 0; text-align: center;">
     <h1 style="margin: 0; font-size: 24px;">My Portfolio</h1>
-
+    
+    <nav>
     <nav style="margin-top: 10px;">
         <ul style="list-style: none; margin: 0; padding: 0; display: flex; justify-content: right;">
             <li style="margin: 0 20px;">
@@ -47,31 +74,40 @@
 </header>
 <body> 
 <header>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="tweets.html">Tweets</a></li>
-    </ul>
+    <div class="container header-inner">
+        <h1 class="site-title">About TechCon 2024</h1>
+
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="tweets.html">Tweets</a></li>
+            </ul>
+        </nav>
+    </div>
 </header>
     <main>
-
-   <article>
+    <section>
+       <article>
     
-    <h1>Welcome to My Website</h1>
-    <p><b><em>I build clean, responsive websites that help businesses stand out and make an impact.</em></b></p>
-<section style="max-width: 800px; margin: 40px auto; background-color: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); text-align: left;">
+          <h1>Welcome to My Website</h1>
+        <p><b><em>I build clean, responsive websites that help businesses stand out and make an impact.</em></b></p>
+        <section style="max-width: 800px; margin: 40px auto; background-color: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); text-align: left;">
     
-    <h1 style="color: #172c66;"> About Me</h1>
-    <p>
-      Hi there! I’m <strong>Caroline</strong>, an experienced travel consultant currently expanding my career into <strong>Front-End Development</strong> through the <em>ALX Software Engineering Program</em>. With years of experience in the travel and customer service industries, I’ve developed an eye for creating seamless experiences that truly resonate with people.
-    </p>
+        <h2 style="color: #172c66;"> About Me</h2>
+       
+          <p> Hi there! I’m <strong>Caroline</strong>, an experienced travel consultant currently expanding my career into <strong>Front-End Development</strong> through the <em>ALX Software Engineering Program</em>. With years of experience in the travel and customer service industries, I’ve developed an eye for creating seamless experiences that truly resonate with people.
+       </p>
 
-    <h2 style="color: #172c66;"> My Passion</h2>
-    <p>
-      I’m passionate about helping businesses especially in travel and service sectors stand out online through engaging, user-friendly, and purpose-driven websites. My mission is to merge creativity with functionality to deliver digital experiences that inspire trust and connection.
-    </p>
+        <h2 style="color: #172c66;"> My Passion</h2>
+         
+      <p> I’m passionate about helping businesses especially in travel and service sectors stand out online through engaging, user-friendly, and purpose-driven websites. My mission is to merge creativity with functionality to deliver digital experiences that inspire trust and connection.
+       </p>
 
-    <h2 style="color: #172c66;"> My Current Focus</h2>
-    <p>
+       <p><h2 style="color: #172c66;"> My Current Focus</h2></p>
+    
       Right now, I’m sharpening my skills in <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong> to design and build responsive business websites that attract, inform, and convert visitors into loyal clients. I believe in the power of well-crafted websites to boost visibility and create lasting impressions.
     </p>
 
@@ -83,9 +119,9 @@
           
         <p>
     <a href="tweets.html" style="color: #007BFF; text-decoration: none; font-weight: bold;">
-        View My Tweet
-    </a>
-</p>
+        View My Tweet  </a></p>
+  
+
           <table>
             <thead>
                  <tr>
@@ -120,33 +156,8 @@
                     <td>UK</td>
                     </tbody>
                 </table>
-                <style>
-    table {
-        width: 30%;
-        border-collapse: collapse;
-    }
-
-    table, th, td {
-        border: 1px solid #ccc;
-    }
-
-    th, td {
-        padding: 8px 12px;
-        text-align: left;
-    }
-
-    th {
-        font-weight: bold;
-    }
-    /* Footer */
-        footer {
-            background: var(--dark, #334155);
-            color: #fff;
-            text-align: center;
-            padding: 20px 0;
-            margin-top: 40px;
-        }
-</style>
+               
+   
 </article>
 <aside>
         <p>placeholder to add comment thread later</p>
