@@ -4,170 +4,208 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caroline | Travel Consultant & Front-End Developer</title>
-       
+
     <meta name="description" content="Portfolio of Caroline Gitonga - Frontend Developer" />
- <style>
 
-    
-    table {
-        width: 30%;
-        border-collapse: collapse;
-    }
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #fdf6f0;
+            margin: 0;
+        }
 
-    table, th, td {
-        border: 1px solid #ccc;
-    }
+        /* Header */
+        header {
+            background-color: #222;
+            color: white;
+            padding: 15px 0;
+        }
 
-    th, td {
-        padding: 8px 12px;
-        text-align: left;
-    }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: right;
+        }
 
-    th {
-        font-weight: bold;
-    }
-    /* Footer */
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-color: #ffe5ec;
+            padding: 60px 20px;
+            border-bottom-left-radius: 60px;
+            border-bottom-right-radius: 60px;
+            text-align: center;
+        }
+
+        /* Table */
+        table {
+            width: 30%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+
+        th, td {
+            padding: 8px 12px;
+            text-align: left;
+        }
+
+        th {
+            font-weight: bold;
+        }
+
+        /* Footer */
         footer {
-            background: var(--dark, #334155);
+            background: #334155;
             color: #fff;
             text-align: center;
             padding: 20px 0;
             margin-top: 40px;
         }
-</style>
+
+        main {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+    </style>
 </head>
 
+<body>
 
+    <!-- HEADER -->
+    <header>
+        <h1 style="margin:0; text-align:center;">My Portfolio</h1>
 
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="tweets.html">Tweets</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<body> 
-    <header style="background-color: #222; color: white; padding: 15px 0; text-align: center;">
-    <h1 style="margin: 0; font-size: 24px;">My Portfolio</h1>
-    
-    <nav>
-    <nav style="margin-top: 10px;">
-        <ul style="list-style: none; margin: 0; padding: 0; display: flex; justify-content: right;">
-            <li style="margin: 0 20px;">
-                <a href="index.html" style="color: white; text-decoration: none; font-weight: bold;">Home</a>
-            </li>
-            <li style="margin: 0 20px;">
-                <a href="about.html" style="color: white; text-decoration: none; font-weight: bold;">About</a>
-            </li>
-            <li style="margin: 0 20px;">
-                <a href="projects.html" style="color: white; text-decoration: none; font-weight: bold;">Projects</a>
-            </li>
-            <li style="margin: 0 20px;">
-                <a href="contact.html" style="color: white; text-decoration: none; font-weight: bold;">Contact</a>
-            </li>
-        </ul>
-    </nav>
-</header>
-<body style="font-family: sans-serif; background-color: #fdf6f0 ; margin: 0; padding: 0; text-align: center;">
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <h1 style="font-size: 3em;">Caroline Gitonga</h1>
+        <p style="font-size: 1.2em; color: #333; font-style: italic;">
+            Travel Consultant | Front-End Developer | Creating Digital Experiences that Inspire Exploration
+        </p>
 
-    
-<header style="background-color: #ffe5ec; padding: 60px 20px; border-bottom-left-radius: 60px; border-bottom-right-radius: 60px;">
-<h1 style="font-size: 3em; color: #1e1e2f; margin-bottom: 10px;">Caroline Gitonga</h1>
-<p style="font-size: 1.2em; color: #333; font-style: italic; margin-top: 0;">Travel Consultant | Front-End Developer | Creating Digital Experiences that Inspire Exploration
-</p>
-<a href="https://www.alxafrica.com/" target="_blank">
-      <img src="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png" alt="ALX Logo">
+        <a href="https://www.alxafrica.com/" target="_blank">
+            <img src="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png" alt="ALX Logo" style="width:150px;">
 
-      <img src="images/myphoto.jpeg" alt="Caroline Gitonga"
-     style="width:180px; border-radius:50%; margin-top:20px; border:3px solid #f28482;">
-
-</a>
-</header>
-
-     <main>
-      <section>
-       <article>
-    
-          <h1>Welcome to My Website</h1>
-        <p><b><em>I build clean, responsive websites that help businesses stand out and make an impact.</em></b></p>
-        <section style="max-width: 800px; margin: 40px auto; background-color: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); text-align: left;">
-    </article>
+            <img src="images/myphoto.jpeg" alt="Caroline Gitonga"
+                 style="width:180px; border-radius:50%; margin-top:20px; border:3px solid #f28482;">
+        </a>
     </section>
 
-    <section>
-        <article>
-        <h2 style="color: #172c66;"> About Me</h2>
-       
-          <p> Hi there! I’m <strong>Caroline</strong>, an experienced travel consultant currently expanding my career into <strong>Front-End Development</strong> through the <em>ALX Software Engineering Program</em>. With years of experience in the travel and customer service industries, I’ve developed an eye for creating seamless experiences that truly resonate with people.
-       </p>
-       </article>
-       </section>
-    <section>
-        <article>
-        <h2 style="color: #172c66;"> My Passion</h2>
-         
-      <p> I’m passionate about helping businesses especially in travel and service sectors stand out online through engaging, user-friendly, and purpose-driven websites. My mission is to merge creativity with functionality to deliver digital experiences that inspire trust and connection.
-       </p>
-       </article>
-    </section>
-    <section>
-        <article>
-       <p><h2 style="color: #172c66;"> My Current Focus</h2></p>
-    
-      Right now, I’m sharpening my skills in <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong> to design and build responsive business websites that attract, inform, and convert visitors into loyal clients. I believe in the power of well-crafted websites to boost visibility and create lasting impressions.
-     </p>
-     </article>
-     </section>
-     <section>
-        <article>
-    <h2 style="color: #172c66;">The Bigger Picture</h2>
-    <p>
-      My goal is to combine my travel consultancy expertise with front-end development to create digital experiences that connect people, inspire exploration, and promote business growth. Whether you’re into travel, tech, or transforming ideas into impact — let’s connect and make something meaningful together!
-    </p>
-    </article>
-  </section>
-          
-        <p>
-    <a href="tweets.html" style="color: #007BFF; text-decoration: none; font-weight: bold;">
-        View My Tweet  </a></p>
-  
+    <!-- MAIN CONTENT -->
+    <main>
 
-          <table>
-            <thead>
-                 <tr>
-                    <th>Name</th>
-                    <th>Age</th>
-                    <th>Country</th>
-                 </tr>
-            </thead>
-            
-            <tbody>
-                <tr>
-                    <td>John</td>
-                    <td>25</td>
-                    <td>USA</td>
-                </tr>
+        <section class="card">
+            <h1>Welcome to My Website</h1>
+            <p><b><em>I build clean, responsive websites that help businesses stand out and make an impact.</em></b></p>
+        </section>
 
-               <tr>
-                    <td>Emily</td>
-                    <td>28</td>
-                    <td>Canada</td>
-                  </tr>
+        <section>
+            <article class="card">
+                <h2>About Me</h2>
+                <p>
+                    Hi there! I’m <strong>Caroline</strong>, an experienced travel consultant now diving into 
+                    <strong>Front-End Development</strong> through the ALX Software Engineering Program.
+                </p>
+            </article>
+        </section>
 
-               <tr>  
-                    <td>Michael</td>
-                    <td>32</td>
-                     <td>Australia</td>
-                </tr>
+        <section>
+            <article class="card">
+                <h2>My Passion</h2>
+                <p>
+                    I help businesses—especially in travel and service—stand out online using user-friendly, 
+                    purpose-driven website design.
+                </p>
+            </article>
+        </section>
 
-                 <tr>
-                    <td>Sophia</td>
-                    <td>21</td>
-                    <td>UK</td>
-                    </tbody>
-                </table>
-               
-   
-</article>
-<aside>
-        <p>placeholder to add comment thread later</p>
-    </aside>
-</main>
-<footer>
+        <section>
+            <article class="card">
+                <h2>My Current Focus</h2>
+                <p>
+                    I’m sharpening my skills in <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong> 
+                    to build responsive, professional websites.
+                </p>
+            </article>
+        </section>
+
+        <section>
+            <article class="card">
+                <h2>The Bigger Picture</h2>
+                <p>
+                    My goal is to combine travel consultancy with web development to create meaningful, inspiring digital
+                    experiences for people and businesses.
+                </p>
+            </article>
+        </section>
+
+        <p style="text-align:center;">
+            <a href="tweets.html" style="color: #007BFF; font-weight: bold;">View My Tweet</a>
+        </p>
+
+        <section class="card">
+            <h2>User Data Table</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th><th>Age</th><th>Country</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>John</td><td>25</td><td>USA</td></tr>
+                    <tr><td>Emily</td><td>28</td><td>Canada</td></tr>
+                    <tr><td>Michael</td><td>32</td><td>Australia</td></tr>
+                    <tr><td>Sophia</td><td>21</td><td>UK</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <aside style="text-align:center; margin-top:20px;">
+            <p>Placeholder to add comment thread later</p>
+        </aside>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
         <p>&copy; 2024 TechCon Conference. All rights reserved.</p>
     </footer>
+
 </body>
+</html>
